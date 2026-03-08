@@ -17,14 +17,13 @@ int main()
     else if(mark>=40 && mark<50){
         printf("D\n");
     }
-    else if(mark>=1 && mark<40){
+    else if(mark>=0 && mark<40){
         printf("E\n");
     }
     else {
-        printf("invalid");
+        printf("invalid mark");
     }
     
     return 0;
 }
 
-//user should input marks of the 7 units using arrays and gets the average of their mark
